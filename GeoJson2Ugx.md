@@ -93,15 +93,15 @@ First, use single polygon GeoJSON data from GitHub for testing. You can access t
 ### WGS84 Examples:
 
 1.Polygon:
-![Polygon-WGS](./polygon.png "Polygon-WGS")
+![Polygon-WGS](./images/polygon.png "Polygon-WGS")
 2.Germany map:
-![Germany-WGS](./germany-wgs.png "Germany-WGS")
+![Germany-WGS](./images/germany-wgs.png "Germany-WGS")
 
 When using WGS84 coordinates, the generated .ugx data produces a visibly distorted Germany map in ProMesh, seems wider.
 
 #### UTM Examples:
 
-![Germany-UTM](./germany-utm.png "Germany-UTM")
+![Germany-UTM](./images/germany-utm.png "Germany-UTM")
 
 When using UTM coordinates, the generated .ugx data produces a visibly realistic Germany map in ProMesh.
 
@@ -128,10 +128,10 @@ Reopen ProMesh. You can find `Triangle Fill by known Boundary Subsets` under `To
 ### Examples:
 
 1. Fill one Polygon:
-   ![TriangleFill](./fill-one-polygon.png "Triangle-Fill")
+   ![TriangleFill](./images/fill-one-polygon.png "Triangle-Fill")
 2. Fill one specific target: 
-   ![TriangleFill](./Bayern1.png "Triangle-Fill")
+   ![TriangleFill](./images/Bayern1.png "Triangle-Fill")
 3. Using delimiter to fill one than one specific target
-   ![TriangleFill](./hessen1-bayern1.png "Triangle-Fill")
+   ![TriangleFill](./images/hessen1-bayern1.png "Triangle-Fill")
 4. Fill the whole map:
-   ![TriangleFill](./triangle-fill.png "Triangle-Fill")
+   ![TriangleFill](./images/triangle-fill.png "Triangle-Fill")
